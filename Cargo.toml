@@ -1,0 +1,19 @@
+[package]
+name = "smart-serde-default"
+version = "0.1.0"
+authors = ["ByteDream", "enzi <enzi@braindead.io>"]
+description = "Implementation of #[derive(ResponseError)]"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/enzious/smart-serde-default"
+include = ["/src", "/README.md", "/LICENSE.md", "/crates-io.md"]
+readme = "crates-io.md"
+documentation = "https://docs.rs/smart-serde-default"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.51"
+quote = "1.0.23"
+syn = { version = "2.0", features = ["full"] }
