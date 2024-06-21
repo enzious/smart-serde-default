@@ -1,8 +1,8 @@
 [package]
 name = "smart-serde-default"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["ByteDream", "enzi <enzi@braindead.io>"]
-description = "Implementation of #[derive(ResponseError)]"
+description = "An annotation to implement #[serde(default)] and Default."
 edition = "2021"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/enzious/smart-serde-default"
